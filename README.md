@@ -24,8 +24,8 @@ Gosto de aprender novas linguagens e criar experiências digitais criativas e fu
 ---
 ## 🛠️ Tecnologias Utilizadas
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 - Responsividade com Flexbox
 - Favicon e fontes externas
