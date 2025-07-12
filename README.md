@@ -33,4 +33,11 @@ Gosto de aprender novas linguagens e criar experiências digitais criativas e fu
 ---
 
 ## 📂 Estrutura de Pastas
+- assets
+    °imagens
+- css
+  °Styles.css
+- js
+  °script.js
+- index.html
 
