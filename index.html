@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio - Maria Eduarda</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="https://icons.iconarchive.com/icons/dunedhel/kaori/128/Other-Butterfly-icon.png">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Maria Eduarda Costa Batista dos Santos</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="#introducao">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <button id="toggle-tema" aria-label="Alternar modo claro/escuro">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="introducao" class="section">
+      <div class="container">
+        <h2>Olá! Eu sou a Maria Eduarda</h2>
+        <p>Desenvolvedora em formação apaixonada por criar experiências web criativas.</p>
+      </div>
+    </section>
+
+    <section id="sobre" class="section bg-white">
+      <div class="container sobre-container">
+        <div class="sobre-imagem">
+          <img src="assets/eu.PNG" alt="Maria Eduarda" />
+        </div>
+        <div class="sobre-texto">
+          <h2>Sobre mim</h2>
+          <p>
+            Olá! Eu sou a Maria Eduarda, tenho 17 anos e sou de São Leopoldo, Brasil. 
+            Tenho paixão por tecnologia, design e desenvolvimento web. 
+            Estou sempre aprendendo novas linguagens e ferramentas para criar experiências digitais criativas e funcionais.
+          </p>
+          <div class="sobre-redes">
+            <a href="https://github.com/Duda0810" target="_blank" aria-label="GitHub">
+              <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+            </a>
+            <a href="https://instagram.com/seuusuario" target="_blank" aria-label="Instagram">
+              <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section bg-light">
+      <div class="container">
+        <h2>Habilidades</h2>
+        <ul class="habilidades-lista">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Java</li>
+          <li>TypeScript</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projetos" class="section">
+      <div class="container">
+        <h2>Projetos</h2>
+        <div class="projetos-grid">
+
+          <div class="projeto">
+            <img src="assets/cineStream.PNG" alt="Projeto Cinestream" />
+            <h3>Cinestream</h3>
+            <p>Site de filmes.</p>
+            <a href="https://github.com/Duda0810/AtividadeAvaliativa_CSS_HTML" target="_blank">Ver no GitHub</a>
+          </div>
+
+          <div class="projeto">
+            <img src="assets/SZA.PNG" alt="Projeto SZA" />
+            <h3>Página SZA</h3>
+            <p>Página de informações sobre a cantora SZA.</p>
+            <a href="https://github.com/Duda0810/TrabalhoAvaliativo" target="_blank">Ver no GitHub</a>
+          </div>
+
+          <div class="projeto">
+            <img src="assets/sobremim.PNG" alt="Landing Page" />
+            <h3>Landing Page</h3>
+            <p>Minha página de apresentação pessoal.</p>
+            <a href="https://github.com/Duda0810/LandingPage" target="_blank">Ver no GitHub</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section bg-light">
+      <div class="container">
+        <h2>Contato</h2>
+        <form id="form-contato" novalidate>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+          <input type="email" id="email" name="email" placeholder="Seu email" required />
+          <textarea id="mensagem" name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Maria Eduarda Costa Batista dos Santos</p>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
